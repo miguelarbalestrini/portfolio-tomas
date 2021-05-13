@@ -1,2 +1,33 @@
 @import "./normalize/reset";
-/* @import "./utilities/color"; */
+@import "./utilities/colors"; 
+
+header {
+    background-color: $Black;
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link .linkActive {
+    color: $Gorse;
+}
+
+h1 {
+    color: white;
+}
+
+.firstSection {
+    background-color: $Black;
+    color: white;
+}
+
+.firstSection--tittle {
+    color: $Gorse;
+}
+
+.aboutMe {
+    background-color: white;
+}

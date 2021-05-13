@@ -25,4 +25,27 @@ h6 {
     font-size: 1rem;
     scroll-behavior: smooth;
 } */
-/* @import "./utilities/color"; */
+header {
+  background-color: #000000; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white; }
+
+.navbar-light .navbar-nav .nav-link .linkActive {
+  color: #ffeb3b; }
+
+h1 {
+  color: white; }
+
+.firstSection {
+  background-color: #000000;
+  color: white; }
+
+.firstSection--tittle {
+  color: #ffeb3b; }
+
+.aboutMe {
+  background-color: white; }
