@@ -20,8 +20,20 @@ h1 {
 }
 
 .firstSection {
+    background-image: url(../media/images/portada-edit.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
     background-color: $Black;
     color: white;
+    height: 540pt;
+}
+.test {
+    padding-left: 0;
+}
+.pos {
+  position: absolute; 
+  top: 45%;
+  left: 29%;
 }
 
 .firstSection--tittle {
