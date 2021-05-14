@@ -1,5 +1,6 @@
 @import "./normalize/reset";
-@import "./utilities/colors"; 
+@import "./utilities/colors";
+@import "./components/buttons.scss";  
 
 header {
     background-color: $Black;
@@ -9,9 +10,13 @@ header {
     color: white;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: white;
+    color: white
 }
-.navbar-light .navbar-nav .nav-link .linkActive {
+.navbar-nav .nav-link.linkActive {
+    color: $Gorse;
+}
+
+.navbar-nav .nav-link.linkActive:hover {
     color: $Gorse;
 }
 
