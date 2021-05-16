@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
 /* body {
     background-color: $backGroundColor;
     font-family: "Roboto", sans-serif;

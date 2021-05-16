@@ -1,0 +1,34 @@
+@import "../utilities/colors"; 
+
+.btn.rounded-pill.contact {
+    border-color: $Gorse;
+    background-color: $Black;
+}
+
+.btn.rounded-pill.contact:hover {
+    background-color: $Gorse;
+}
+
+.link--contact {
+    color: $Gorse;
+}
+
+.link--contact:hover {
+    color: $Black;
+}
+
+.btn.rounded-pill.knowMore {
+    background-color: $Gorse;
+}
+
+.btn.rounded-pill.knowMore:hover {
+    background-color: $BuddhaGold;
+}
+
+.link--knowMore {
+    color: $Black;
+}
+
+.link--knowMore:hover {
+    color: $Black;
+}
