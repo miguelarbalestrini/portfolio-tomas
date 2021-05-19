@@ -35,7 +35,7 @@ h6 {
 
 .poppins-medium {
   font-weight: 500;
-  font-size: 20px; }
+  font-size: 15px; }
 
 .poppins-regular {
   font-weight: 400;
@@ -43,7 +43,7 @@ h6 {
 
 .poppins-semibold {
   font-weight: 600;
-  font-size: 40pt; }
+  font-size: 7.239819004524887vw; }
 
 .btn.rounded-pill.contact {
   border-color: #ffeb3b;
@@ -91,11 +91,13 @@ h1 {
 
 .firstSection {
   background-image: url(../media/images/portada-edit.svg);
+  /* background-position: right; */
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #000000;
   color: white;
-  height: 540pt; }
+  height: 90vh;
+  width: 100%; }
 
 .test {
   padding-left: 0; }
@@ -103,7 +105,7 @@ h1 {
 .pos {
   position: absolute;
   top: 45%;
-  left: 23%; }
+  left: 20%; }
 
 .firstSection--tittle {
   color: #ffeb3b; }
