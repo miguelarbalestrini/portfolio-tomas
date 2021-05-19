@@ -1,5 +1,6 @@
 @import "./normalize/reset";
 @import "./utilities/colors";
+@import "./utilities/fonts";
 @import "./components/buttons.scss";  
 
 header {
@@ -8,6 +9,7 @@ header {
 }
 .navbar-light .navbar-nav .nav-link {
     color: white;
+    /* padding-right: 50px; */
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: white
@@ -26,11 +28,13 @@ h1 {
 
 .firstSection {
     background-image: url(../media/images/portada-edit.svg);
+    background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
     background-color: $Black;
     color: white;
-    height: 540pt;
+    height:90vh;
+    width: 100%;
 }
 .test {
     padding-left: 0;
@@ -38,7 +42,7 @@ h1 {
 .pos {
   position: absolute; 
   top: 45%;
-  left: 29%;
+  left: 20%;
 }
 
 .firstSection--tittle {
