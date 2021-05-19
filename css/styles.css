@@ -91,7 +91,7 @@ h1 {
 
 .firstSection {
   background-image: url(../media/images/portada-edit.svg);
-  /* background-position: right; */
+  background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #000000;
