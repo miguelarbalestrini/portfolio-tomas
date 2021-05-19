@@ -1,5 +1,6 @@
 @import "./normalize/reset";
 @import "./utilities/colors";
+@import "./utilities/fonts";
 @import "./components/buttons.scss";  
 
 header {
@@ -32,6 +33,7 @@ h1 {
     background-color: $Black;
     color: white;
     height: 540pt;
+
 }
 .test {
     padding-left: 0;
