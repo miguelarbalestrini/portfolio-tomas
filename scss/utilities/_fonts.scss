@@ -1,21 +1,23 @@
 .poppins-light {
     font-weight: 300;
-    font-size: 10pt;
+    font-size: reSizeFont(20pt);
 }
 
 .poppins-medium {
     font-weight: 500;
-    font-size: 15px;
+    font-size: reSizeFont(34pt);
 }
 
 .poppins-regular {
     font-weight: 400;
-    font-size: 20pt;
+    font-size: reSizeFont(34pt);
 }
 
 .poppins-semibold {
     font-weight: 600;
-    font-size: 7.239819004524887vw;
+    font-size: reSizeFont(96pt);
 }
 
-
+@function reSizeFont($maxSize, $minSize:16px) {
+    @return clamp($minSize, 4vw, $maxSize);
+}
