@@ -6,6 +6,8 @@ $poppins-medium: 500;
 
 $poppins-semibold: 600;
 
+$poppins-bold: 700;
+
 @function reSizeFont($maxSize, $minSize:16px) {
     @return clamp($minSize, 4vw, $maxSize);
 }
