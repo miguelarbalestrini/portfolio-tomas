@@ -6,13 +6,14 @@
     @include set-font($poppins-semibold);
 }
 
-.boldTitle1 {
-    font-size: reSizeFont(24px);
-    @include set-font($poppins-bold, $black);
-}
 .mediumTitle1 {
     font-size: reSizeFont(96px);
     @include set-font($poppins-medium, $black);
+}
+
+.mediumTitle2 {
+    font-size: reSizeFont(96px);
+    @include set-font($poppins-medium);
 }
 
 .regularSubtittle1 {
@@ -33,9 +34,4 @@
 .mediumItem1 {
     font-size: reSizeFont(20px);
     @include set-font($poppins-medium);
-}
-
-.mediumText1 {
-    font-size: reSizeFont(20px);
-    @include set-font($poppins-medium, $black);
 }

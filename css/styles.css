@@ -25,15 +25,15 @@ a:active {
   font-weight: 600;
   color: white; }
 
-.boldTitle1 {
-  font-size: clamp(16px, 4vw, 24px);
-  font-weight: 700;
-  color: #000000; }
-
 .mediumTitle1 {
   font-size: clamp(16px, 4vw, 96px);
   font-weight: 500;
   color: #000000; }
+
+.mediumTitle2 {
+  font-size: clamp(16px, 4vw, 96px);
+  font-weight: 500;
+  color: white; }
 
 .regularSubtittle1 {
   font-size: clamp(16px, 4vw, 34px);
@@ -54,11 +54,6 @@ a:active {
   font-size: clamp(16px, 4vw, 20px);
   font-weight: 500;
   color: white; }
-
-.mediumText1 {
-  font-size: clamp(16px, 4vw, 20px);
-  font-weight: 500;
-  color: #000000; }
 
 .btn.rounded-pill.contact {
   border-color: #ffeb3b;
