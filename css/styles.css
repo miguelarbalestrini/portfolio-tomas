@@ -83,7 +83,7 @@ header {
 h1 {
   color: white; }
 
-.firstSection {
+#firstSection {
   background-image: url(../media/images/portada-edit.svg);
   background-position: right;
   background-size: contain;
@@ -92,5 +92,6 @@ h1 {
   color: white;
   height: 90vh; }
 
-.aboutMe {
-  background-color: white; }
+#aboutMe {
+  background-color: white;
+  height: auto; }
