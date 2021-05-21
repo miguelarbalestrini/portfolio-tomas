@@ -123,3 +123,6 @@ h1 {
 .services {
   background-color: #ffff72;
   overflow: hidden; }
+
+.fas.fa-laptop.fa-3x {
+  color: black; }
