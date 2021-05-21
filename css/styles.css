@@ -119,3 +119,7 @@ h1 {
 #whatCanIdo {
   background-color: #ffeb3b;
   height: auto; }
+
+.services {
+  background-color: #ffff72;
+  overflow: hidden; }
