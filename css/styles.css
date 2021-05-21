@@ -124,7 +124,6 @@ h1 {
   background-color: #ffff72;
   overflow: hidden; }
 
-/* 
-.fas.fa-laptop.fa-3x {
-    color: black;
-} */
+#job {
+  background-color: #000000;
+  max-height: 789px; }
