@@ -1,25 +1,24 @@
 @import "./normalize/reset";
 @import "./utilities/colors";
 @import "./utilities/fonts";
-@import "./components/buttons.scss";  
+@import "./components/titles.scss";
+@import "./components/buttons.scss";
 
 header {
-    background-color: $Black;
-    
+    background-color: $black;
 }
 .navbar-light .navbar-nav .nav-link {
     color: white;
-    /* padding-right: 50px; */
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: white
+    color: white;
 }
 .navbar-nav .nav-link.linkActive {
-    color: $Gorse;
+    color: $gorse;
 }
 
 .navbar-nav .nav-link.linkActive:hover {
-    color: $Gorse;
+    color: $gorse;
 }
 
 h1 {
@@ -31,21 +30,9 @@ h1 {
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: $Black;
+    background-color: $black;
     color: white;
-    height:90vh;
-}
-.test {
-    padding-left: 0;
-}
-.pos {
-  position: absolute; 
-  top: 40%;
-  left: 20%;
-}
-
-.firstSection--tittle {
-    color: $Gorse;
+    height: 90vh;
 }
 
 .aboutMe {

@@ -1,0 +1,22 @@
+@import "../utilities/fonts";
+@import "../utilities/colors";
+
+.semiboldTitle1 {
+    font-size: reSizeFont(96px);
+    @include set-font($poppins-semibold);
+}
+
+.regularSubtittle1 {
+    font-size: reSizeFont(34px);
+    @include set-font($poppins-regular, $gorse);
+}
+
+.lightText1 {
+    font-size: reSizeFont(20px);
+    @include set-font($poppins-light);
+}
+
+.mediumItem1 {
+    @include set-font($poppins-medium);
+    font-size: reSizeFont(20px);
+}

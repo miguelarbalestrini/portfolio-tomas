@@ -20,21 +20,25 @@ a:visited,
 a:active {
   text-decoration: none; }
 
-.poppins-light {
-  font-weight: 300;
-  font-size: reSizeFont(20pt); }
-
-.poppins-medium {
-  font-weight: 500;
-  font-size: reSizeFont(34pt); }
-
-.poppins-regular {
-  font-weight: 400;
-  font-size: reSizeFont(34pt); }
-
-.poppins-semibold {
+.semiboldTitle1 {
+  font-size: clamp(16px, 4vw, 96px);
   font-weight: 600;
-  font-size: reSizeFont(96pt); }
+  color: white; }
+
+.regularSubtittle1 {
+  font-size: clamp(16px, 4vw, 34px);
+  font-weight: 400;
+  color: #ffeb3b; }
+
+.lightText1 {
+  font-size: clamp(16px, 4vw, 20px);
+  font-weight: 300;
+  color: white; }
+
+.mediumItem1 {
+  font-weight: 500;
+  color: white;
+  font-size: clamp(16px, 4vw, 20px); }
 
 .btn.rounded-pill.contact {
   border-color: #ffeb3b;
@@ -65,8 +69,7 @@ header {
   background-color: #000000; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: white;
-  /* padding-right: 50px; */ }
+  color: white; }
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: white; }
@@ -88,17 +91,6 @@ h1 {
   background-color: #000000;
   color: white;
   height: 90vh; }
-
-.test {
-  padding-left: 0; }
-
-.pos {
-  position: absolute;
-  top: 40%;
-  left: 20%; }
-
-.firstSection--tittle {
-  color: #ffeb3b; }
 
 .aboutMe {
   background-color: white; }

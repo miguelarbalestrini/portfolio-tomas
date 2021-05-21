@@ -1,23 +1,16 @@
-.poppins-light {
-    font-weight: 300;
-    font-size: reSizeFont(20pt);
-}
+$poppins-light: 300;
 
-.poppins-medium {
-    font-weight: 500;
-    font-size: reSizeFont(34pt);
-}
+$poppins-regular: 400;
 
-.poppins-regular {
-    font-weight: 400;
-    font-size: reSizeFont(34pt);
-}
+$poppins-medium: 500;
 
-.poppins-semibold {
-    font-weight: 600;
-    font-size: reSizeFont(96pt);
-}
+$poppins-semibold: 600;
 
 @function reSizeFont($maxSize, $minSize:16px) {
     @return clamp($minSize, 4vw, $maxSize);
+}
+
+@mixin set-font($fontWeight, $fontColor:white) {
+    font-weight: $fontWeight;
+    color: $fontColor;
 }
