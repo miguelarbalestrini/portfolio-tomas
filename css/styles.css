@@ -154,3 +154,7 @@ h1 {
 #networks {
   background-color: white;
   height: auto; }
+
+#foo {
+  background-color: #ffeb3b;
+  height: auto; }
