@@ -80,6 +80,26 @@ a:active {
 .link--knowMore:hover {
   color: #000000; }
 
+.card-img-top:hover {
+  backface-visibility: #000000; }
+
+.menuContainer {
+  display: inline-block;
+  position: relative; }
+
+.btn.rounded-pill.contact.hideButton {
+  position: absolute;
+  top: 60%;
+  left: 40%; }
+
+.hideButton {
+  display: none;
+  transition: all 0.5s; }
+
+.menuContainer:hover > .hideButton {
+  display: block;
+  transition: all 0.5s; }
+
 header {
   background-color: #000000; }
 
