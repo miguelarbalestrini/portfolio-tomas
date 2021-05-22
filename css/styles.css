@@ -105,6 +105,9 @@ a:active {
   display: block;
   transition: all 0.5s; }
 
+.gorseHover:hover {
+  color: #ffeb3b; }
+
 header {
   background-color: #000000; }
 
