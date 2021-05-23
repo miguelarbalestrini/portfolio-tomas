@@ -55,6 +55,11 @@ a:active {
   font-weight: 400;
   color: #000000; }
 
+.regulatText-24 {
+  font-size: clamp(16px, 4vw, 24px);
+  font-weight: 400;
+  color: #000000; }
+
 .mediumItem1 {
   font-size: clamp(16px, 4vw, 20px);
   font-weight: 500;
@@ -174,5 +179,4 @@ h1 {
   height: auto; }
 
 #webDesigner {
-  background-color: #eeeeee;
-  height: 100vh; }
+  background-color: #eeeeee; }

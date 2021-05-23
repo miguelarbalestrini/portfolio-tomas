@@ -36,6 +36,10 @@
     @include set-font($poppins-regular, $black);
 }
 
+.regulatText-24 {
+    font-size: reSizeFont(24px);
+    @include set-font($poppins-regular, $black);
+}
 .mediumItem1 {
     font-size: reSizeFont(20px);
     @include set-font($poppins-medium);
