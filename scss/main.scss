@@ -4,11 +4,20 @@
 @import "./components/titles.scss";
 @import "./components/buttons.scss";
 
-header {
+.headerBlack {
     background-color: $black;
+}
+.headergallery {
+    background-color: $gallery;
 }
 .navbar-light .navbar-nav .nav-link {
     color: white;
+}
+.navbar-light .navbar-nav .nav-link.mynBlackNav {
+    color: $black;
+}
+.navbar-light .navbar-nav .nav-link.mynBlackNav:hover {
+    color: $black;
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: white;
@@ -62,5 +71,10 @@ h1 {
 
 #foo {
     background-color: $parisDaisy;
+    height: auto;
+}
+
+#webDesigner {
+    background-color: $gallery;
     height: auto;
 }

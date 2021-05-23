@@ -60,6 +60,11 @@ a:active {
   font-weight: 500;
   color: white; }
 
+.mediumItemBlack {
+  font-size: clamp(16px, 4vw, 20px);
+  font-weight: 500;
+  color: #000000; }
+
 .btn.rounded-pill.contact {
   border-color: #ffeb3b;
   background-color: #000000; }
@@ -108,11 +113,20 @@ a:active {
 .gorseHover:hover {
   color: #ffeb3b; }
 
-header {
+.headerBlack {
   background-color: #000000; }
+
+.headergallery {
+  background-color: #eeeeee; }
 
 .navbar-light .navbar-nav .nav-link {
   color: white; }
+
+.navbar-light .navbar-nav .nav-link.mynBlackNav {
+  color: #000000; }
+
+.navbar-light .navbar-nav .nav-link.mynBlackNav:hover {
+  color: #000000; }
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: white; }
@@ -157,4 +171,8 @@ h1 {
 
 #foo {
   background-color: #ffff72;
+  height: auto; }
+
+#webDesigner {
+  background-color: #eeeeee;
   height: auto; }

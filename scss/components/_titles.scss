@@ -40,3 +40,8 @@
     font-size: reSizeFont(20px);
     @include set-font($poppins-medium);
 }
+
+.mediumItemBlack {
+    font-size: reSizeFont(20px);
+    @include set-font($poppins-medium, $black);
+}
