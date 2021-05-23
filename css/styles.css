@@ -45,6 +45,11 @@ a:active {
   font-weight: 400;
   color: #ffeb3b; }
 
+.boldSubtitle-34 {
+  font-size: clamp(16px, 4vw, 34px);
+  font-weight: 700;
+  color: white; }
+
 .lightText1 {
   font-size: clamp(16px, 4vw, 20px);
   font-weight: 300;

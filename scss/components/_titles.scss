@@ -26,6 +26,11 @@
     @include set-font($poppins-regular, $gorse);
 }
 
+.boldSubtitle-34 {
+    font-size: reSizeFont(34px);
+    @include set-font($poppins-bold);
+}
+
 .lightText1 {
     font-size: reSizeFont(20px);
     @include set-font($poppins-light);
