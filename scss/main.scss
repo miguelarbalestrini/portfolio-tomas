@@ -96,6 +96,7 @@ h1 {
 .form-control:focus {
     background-color: $black;
     border: black;
+    color:white;
 }
 
 .whitePlaceholder::-webkit-input-placeholder { color:white; }

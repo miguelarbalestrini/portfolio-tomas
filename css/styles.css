@@ -205,7 +205,8 @@ h1 {
 } */
 .form-control:focus {
   background-color: #000000;
-  border: black; }
+  border: black;
+  color: white; }
 
 .whitePlaceholder::-webkit-input-placeholder {
   color: white; }
