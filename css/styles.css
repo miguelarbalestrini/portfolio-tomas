@@ -198,6 +198,8 @@ h1 {
 .form-control {
   background-color: #000000;
   border: black;
+  border-bottom: ridge 1px white;
+  padding-top: 3px;
   /*  color: white; */ }
 
 /* .form-control:hover {
