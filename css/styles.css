@@ -199,7 +199,7 @@ h1 {
   background-color: #000000;
   border: black;
   border-bottom: ridge 1px white;
-  padding-top: 3px;
+  padding-left: 0;
   /*  color: white; */ }
 
 /* .form-control:hover {
