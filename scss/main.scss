@@ -82,3 +82,24 @@ h1 {
     background-color: $black;
     height: 90vh;
 }
+
+.form-control {
+    background-color: $black;
+    border: black;
+   /*  color: white; */
+}
+
+/* .form-control:hover {
+    :hover: none;
+} */
+
+.form-control:focus {
+    background-color: $black;
+    border: black;
+}
+
+.whitePlaceholder::-webkit-input-placeholder { color:white; }
+.whitePlaceholder:-moz-placeholder { color:white; } /* firefox 19+ */
+.whitePlaceholder:-ms-input-placeholder { color:white; } /* ie */
+.whitePlaceholder:-moz-placeholder { color:white; }
+.whitePlaceholder::-moz-placeholder { color: white; }

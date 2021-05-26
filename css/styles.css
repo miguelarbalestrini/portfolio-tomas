@@ -65,6 +65,11 @@ a:active {
   font-weight: 400;
   color: #000000; }
 
+.regulatText-24-white {
+  font-size: clamp(16px, 4vw, 24px);
+  font-weight: 400;
+  color: white; }
+
 .mediumItem1 {
   font-size: clamp(16px, 4vw, 20px);
   font-weight: 500;
@@ -189,3 +194,32 @@ h1 {
 #contactForm {
   background-color: #000000;
   height: 90vh; }
+
+.form-control {
+  background-color: #000000;
+  border: black;
+  /*  color: white; */ }
+
+/* .form-control:hover {
+    :hover: none;
+} */
+.form-control:focus {
+  background-color: #000000;
+  border: black; }
+
+.whitePlaceholder::-webkit-input-placeholder {
+  color: white; }
+
+.whitePlaceholder:-moz-placeholder {
+  color: white; }
+
+/* firefox 19+ */
+.whitePlaceholder:-ms-input-placeholder {
+  color: white; }
+
+/* ie */
+.whitePlaceholder:-moz-placeholder {
+  color: white; }
+
+.whitePlaceholder::-moz-placeholder {
+  color: white; }
