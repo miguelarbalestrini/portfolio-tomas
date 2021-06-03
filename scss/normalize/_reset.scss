@@ -18,6 +18,10 @@ html {
     scrollbar-width: none;
 }
 
+textarea {
+    resize: none;
+}
+
 a:link,
 a:visited,
 a:active {
