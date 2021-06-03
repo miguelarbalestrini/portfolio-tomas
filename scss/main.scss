@@ -74,6 +74,14 @@ h1 {
     height: auto;
 }
 
+.semicirculo {
+	background: $gorse;
+	border: 2px solid $gorse;
+	height: 40%;
+	border-top-left-radius: 50% 100%;
+	border-top-right-radius: 50% 100%;
+}
+
 #webDesigner {
     background-color: $gallery;
 }
@@ -89,6 +97,12 @@ h1 {
     border-bottom: ridge 1px white;
     padding-left: 0;
    /*  color: white; */
+}
+
+.copyright {
+    position: absolute;
+    left: 30%;
+    top: 20%;
 }
 
 /* .form-control:hover {

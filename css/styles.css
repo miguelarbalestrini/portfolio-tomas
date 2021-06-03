@@ -188,6 +188,13 @@ h1 {
   background-color: #ffff72;
   height: auto; }
 
+.semicirculo {
+  background: #ffeb3b;
+  border: 2px solid #ffeb3b;
+  height: 40%;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%; }
+
 #webDesigner {
   background-color: #eeeeee; }
 
@@ -201,6 +208,11 @@ h1 {
   border-bottom: ridge 1px white;
   padding-left: 0;
   /*  color: white; */ }
+
+.copyright {
+  position: absolute;
+  left: 30%;
+  top: 20%; }
 
 /* .form-control:hover {
     :hover: none;
