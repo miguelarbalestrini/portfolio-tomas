@@ -118,18 +118,27 @@ a:active {
   left: 40%; }
 
 .hideButton {
-  display: none;
-  transition: all 0.5s; }
+  display: none; }
 
 .menuContainer:hover > .hideButton {
-  display: block;
-  transition: all 0.5s; }
+  display: block; }
 
 .menuContainer:hover > img {
-  filter: brightness(50%); }
+  filter: brightness(70%); }
 
 .gorseHover:hover {
   color: #ffeb3b; }
+
+.menuContainer:hover > .appearingText {
+  color: white;
+  transform: translateY(-40px);
+  transition: all 0.5s; }
+
+.appearingText {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  text-align: center; }
 
 .headerBlack {
   background-color: #000000; }
