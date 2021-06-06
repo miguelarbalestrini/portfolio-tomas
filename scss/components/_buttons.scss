@@ -33,10 +33,6 @@
     color: $black;
 }
 
-.card-img-top:hover {
-    backface-visibility: $black;
-}
-
 .menuContainer {
     display: inline-block;
     position: relative;
@@ -56,6 +52,9 @@
 .menuContainer:hover > .hideButton {
     display: block;
     transition: all 0.5s;
+}
+.menuContainer:hover > img {
+    filter: brightness(50%);
 }
 
 .gorseHover:hover {
