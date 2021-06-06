@@ -191,10 +191,10 @@ h1 {
   background-color: #ffff72;
   height: auto; }
 
-.semicirculo {
+.semiCircle {
   background: #ffeb3b;
   border: 2px solid #ffeb3b;
-  height: 40%;
+  height: 25%;
   border-top-left-radius: 50% 100%;
   border-top-right-radius: 50% 100%; }
 
@@ -217,19 +217,20 @@ h1 {
   left: 30%;
   top: 20%; }
 
-.cuarto2 {
-  background: #A1CC3A;
-  border: 2px solid #888888;
-  height: 80px;
-  border-radius: 0 0 0 100%;
-  width: 80px; }
-
-.cuarto1 {
-  background: #A1CC3A;
-  border: 2px solid #888888;
-  height: 80px;
+.topQuarterCircle {
   border-radius: 100% 0 0 0;
-  width: 80px;
+  background: #ffff72;
+  height: 70%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 130%; }
+
+.bottomQuarterCircle {
+  border-radius: 0 0 0 100%;
+  background: #c8b900;
+  height: 70%;
+  width: 100%;
   position: absolute;
   right: 0; }
 

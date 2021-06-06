@@ -74,10 +74,10 @@ h1 {
     height: auto;
 }
 
-.semicirculo {
+.semiCircle {
 	background: $gorse;
 	border: 2px solid $gorse;
-	height: 40%;
+	height: 25%;
 	border-top-left-radius: 50% 100%;
 	border-top-right-radius: 50% 100%;
 }
@@ -105,23 +105,25 @@ h1 {
     top: 20%;
 }
 
-.cuarto2 {
-	background: #A1CC3A;
-	border: 2px solid #888888;
-	height: 80px;
-	border-radius: 0 0 0 100%;
-	width: 80px;
+.topQuarterCircle{
+    border-radius: 100% 0 0 0;
+	background: $parisDaisy;
+	height: 70%;
+	width: 100%;
+    position: absolute;
+    right: 0;
+    top: 130%;
 }
 
-.cuarto1 {
-	background: #A1CC3A;
-	border: 2px solid #888888;
-	height: 80px;
-	border-radius: 100% 0 0 0;
-	width: 80px;
+.bottomQuarterCircle {
+    border-radius: 0 0 0 100%;
+	background: $buddhaGold;
+	height: 70%;
+	width: 100%;
     position: absolute;
     right: 0;
 }
+
 
 
 /* .form-control:hover {
