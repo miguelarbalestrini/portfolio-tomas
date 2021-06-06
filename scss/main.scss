@@ -69,6 +69,12 @@ h1 {
     height: auto;
 }
 
+#jobs {
+    background-color: $black;
+    color: white;
+    height: 100vh;
+}
+
 #foo {
     background-color: $parisDaisy;
     height: auto;
@@ -124,7 +130,9 @@ h1 {
     right: 0;
 }
 
-
+.card-body {
+    background-color: $gallery;
+}
 
 /* .form-control:hover {
     :hover: none;
@@ -136,6 +144,21 @@ h1 {
     color:white;
 }
 
+.card {
+    overflow: hidden;
+    border: hidden;
+}
+
+.card-body {
+    z-index: 1;
+}
+.zoom {
+    transition: transform .2s; 
+}
+ 
+.zoom:hover {
+    transform: scale(1.1); 
+}
 .whitePlaceholder::-webkit-input-placeholder { color:white; }
 .whitePlaceholder:-moz-placeholder { color:white; } /* firefox 19+ */
 .whitePlaceholder:-ms-input-placeholder { color:white; } /* ie */

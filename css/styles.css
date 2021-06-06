@@ -196,6 +196,11 @@ h1 {
   background-color: white;
   height: auto; }
 
+#jobs {
+  background-color: #000000;
+  color: white;
+  height: 100vh; }
+
 #foo {
   background-color: #ffff72;
   height: auto; }
@@ -243,6 +248,9 @@ h1 {
   position: absolute;
   right: 0; }
 
+.card-body {
+  background-color: #eeeeee; }
+
 /* .form-control:hover {
     :hover: none;
 } */
@@ -250,6 +258,19 @@ h1 {
   background-color: #000000;
   border: black;
   color: white; }
+
+.card {
+  overflow: hidden;
+  border: hidden; }
+
+.card-body {
+  z-index: 1; }
+
+.zoom {
+  transition: transform .2s; }
+
+.zoom:hover {
+  transform: scale(1.1); }
 
 .whitePlaceholder::-webkit-input-placeholder {
   color: white; }
