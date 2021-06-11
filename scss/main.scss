@@ -75,6 +75,27 @@ h1 {
     height: 100vh;
 }
 
+#quru {
+    background-image: url("../media/images/Enmascarar\ grupo\ 3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(30%);
+    height: 100vh;
+}
+
+#jobExample {
+    background-color: $gallery;
+}
+
+#moreJobExample {
+    background-image: url("../media/images/Frame\ 114\ \(2\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 #foo {
     background-color: $parisDaisy;
     height: auto;
