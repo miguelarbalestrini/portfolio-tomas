@@ -185,3 +185,19 @@ h1 {
 .whitePlaceholder:-ms-input-placeholder { color:white; } /* ie */
 .whitePlaceholder:-moz-placeholder { color:white; }
 .whitePlaceholder::-moz-placeholder { color: white; }
+
+@media only screen and (max-width: 600px) {
+    #firstSection {
+        height: auto;
+        /* background-image: none; */
+    }
+    #aboutMe {
+        height: auto;
+    }
+    #job {
+        height: auto;
+    }
+    #jobs {
+        height: auto;
+    }
+}

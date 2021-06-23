@@ -306,3 +306,14 @@ h1 {
 
 .whitePlaceholder::-moz-placeholder {
   color: white; }
+
+@media only screen and (max-width: 600px) {
+  #firstSection {
+    height: auto;
+    /* background-image: none; */ }
+  #aboutMe {
+    height: auto; }
+  #job {
+    height: auto; }
+  #jobs {
+    height: auto; } }
