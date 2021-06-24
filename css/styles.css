@@ -6,15 +6,19 @@
   list-style-type: none;
   text-decoration: none; }
 
-::-webkit-scrollbar {
-  display: none; }
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+/* html {
+    height: 100vh;
 
-html {
-  height: 100vh;
-  /* Firefox Fix */
-  overflow: auto;
-  scrollbar-width: none; }
-
+    
+    //Firefox Fix 
+    overflow: auto;
+    scrollbar-width: none;
+} */
+/* html,body{margin:0;padding:0;}
+h1,p{margin:0 0 1em} */
 textarea {
   resize: none; }
 
@@ -174,11 +178,13 @@ h1 {
   background-repeat: no-repeat;
   background-color: #000000;
   color: white;
-  height: 100vh; }
+  height: 100vh;
+  /*  min-height: auto ; */
+  /*  overflow: auto; */ }
 
 #aboutMe {
   background-color: white;
-  height: auto; }
+  min-height: auto; }
 
 #whatCanIdo {
   background-color: #ffeb3b;
@@ -190,7 +196,7 @@ h1 {
 
 #job {
   background-color: #000000;
-  max-height: 789px; }
+  max-height: auto; }
 
 #networks {
   background-color: white;
@@ -252,16 +258,16 @@ h1 {
 .topQuarterCircle {
   border-radius: 100% 0 0 0;
   background: #ffff72;
-  height: 70%;
+  height: 72%;
   width: 100%;
   position: absolute;
   right: 0;
-  top: 130%; }
+  top: 136%; }
 
 .bottomQuarterCircle {
   border-radius: 0 0 0 100%;
   background: #c8b900;
-  height: 70%;
+  height: 72%;
   width: 100%;
   position: absolute;
   right: 0; }
@@ -310,10 +316,28 @@ h1 {
 @media only screen and (max-width: 600px) {
   #firstSection {
     height: auto;
-    /* background-image: none; */ }
-  #aboutMe {
+    background-image: none; }
+  #whatCanIdo {
     height: auto; }
   #job {
     height: auto; }
   #jobs {
+    height: auto; }
+  .card-img-top {
+    display: none; }
+  .topQuarterCircle {
+    border-radius: 100% 0 0 0;
+    background: #ffff72;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 153%; } }
+
+@media only screen and (max-height: 600px) {
+  #firstSection {
     height: auto; } }
+
+.card-img-top {
+  max-width: 100%;
+  width: 100%; }

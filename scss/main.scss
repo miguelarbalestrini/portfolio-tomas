@@ -42,11 +42,13 @@ h1 {
     background-color: $black;
     color: white;
     height: 100vh;
+   /*  min-height: auto ; */
+   /*  overflow: auto; */
 }
 
 #aboutMe {
     background-color: white;
-    height: auto;
+    min-height: auto;
 }
 
 #whatCanIdo {
@@ -61,7 +63,7 @@ h1 {
 
 #job {
     background-color: $black;
-    max-height: 789px;
+    max-height: auto;
 }
 
 #networks {
@@ -135,17 +137,17 @@ h1 {
 .topQuarterCircle{
     border-radius: 100% 0 0 0;
 	background: $parisDaisy;
-	height: 70%;
+	height: 72%;
 	width: 100%;
     position: absolute;
     right: 0;
-    top: 130%;
+    top: 136%;
 }
 
 .bottomQuarterCircle {
     border-radius: 0 0 0 100%;
 	background: $buddhaGold;
-	height: 70%;
+	height: 72%;
 	width: 100%;
     position: absolute;
     right: 0;
@@ -189,9 +191,9 @@ h1 {
 @media only screen and (max-width: 600px) {
     #firstSection {
         height: auto;
-        /* background-image: none; */
+        background-image: none;
     }
-    #aboutMe {
+    #whatCanIdo {
         height: auto;
     }
     #job {
@@ -200,4 +202,28 @@ h1 {
     #jobs {
         height: auto;
     }
+    .card-img-top {
+        display: none;
+    }
+    .topQuarterCircle{
+        border-radius: 100% 0 0 0;
+        background: $parisDaisy;
+        height: 70%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 153%;
+    }
+    
+}
+
+@media only screen and (max-height: 600px) {
+    #firstSection {
+        height: auto;
+    }
+}
+
+.card-img-top {
+    max-width: 100%;
+    width: 100%;
 }

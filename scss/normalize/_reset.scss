@@ -6,17 +6,21 @@
     list-style-type: none;
     text-decoration: none;
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
-html {
+/* html {
     height: 100vh;
 
-    /* Firefox Fix */
+    
+    //Firefox Fix 
     overflow: auto;
     scrollbar-width: none;
-}
+} */
+
+/* html,body{margin:0;padding:0;}
+h1,p{margin:0 0 1em} */
 
 textarea {
     resize: none;
