@@ -42,8 +42,8 @@ h1 {
     background-color: $black;
     color: white;
     height: 100vh;
-   /*  min-height: auto ; */
-   /*  overflow: auto; */
+    /*  min-height: auto ; */
+    /*  overflow: auto; */
 }
 
 #aboutMe {
@@ -104,11 +104,11 @@ h1 {
 }
 
 .semiCircle {
-	background: $gorse;
-	border: 2px solid $gorse;
-	height: 25%;
-	border-top-left-radius: 50% 100%;
-	border-top-right-radius: 50% 100%;
+    background: $gorse;
+    border: 2px solid $gorse;
+    height: 25%;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
 }
 
 #webDesigner {
@@ -125,7 +125,7 @@ h1 {
     border: black;
     border-bottom: ridge 1px white;
     padding-left: 0;
-   /*  color: white; */
+    /*  color: white; */
 }
 
 .copyright {
@@ -134,11 +134,11 @@ h1 {
     top: 20%;
 }
 
-.topQuarterCircle{
+.topQuarterCircle {
     border-radius: 100% 0 0 0;
-	background: $parisDaisy;
-	height: 72%;
-	width: 100%;
+    background: $parisDaisy;
+    height: 72%;
+    width: 100%;
     position: absolute;
     right: 0;
     top: 136%;
@@ -146,9 +146,9 @@ h1 {
 
 .bottomQuarterCircle {
     border-radius: 0 0 0 100%;
-	background: $buddhaGold;
-	height: 72%;
-	width: 100%;
+    background: $buddhaGold;
+    height: 72%;
+    width: 100%;
     position: absolute;
     right: 0;
 }
@@ -164,7 +164,7 @@ h1 {
 .form-control:focus {
     background-color: $black;
     border: black;
-    color:white;
+    color: white;
 }
 
 .card {
@@ -176,22 +176,79 @@ h1 {
     z-index: 1;
 }
 .zoom {
-    transition: transform .2s; 
+    transition: transform 0.2s;
 }
- 
+
 .zoom:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
-.whitePlaceholder::-webkit-input-placeholder { color:white; }
-.whitePlaceholder:-moz-placeholder { color:white; } /* firefox 19+ */
-.whitePlaceholder:-ms-input-placeholder { color:white; } /* ie */
-.whitePlaceholder:-moz-placeholder { color:white; }
-.whitePlaceholder::-moz-placeholder { color: white; }
+
+.backgroundGraph {
+    background-color: $gallery;
+}
+
+.barGraph {
+    margin-bottom: 1em;
+    position: relative;
+    width: 70%;
+    margin: 3em;
+    height: auto;
+    border-radius: 3px;
+}
+
+.backgroundBar {
+    border-radius: 2px;
+    background: white;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+.bar {
+    background-color: #ffeb3b;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    padding-left: 0.5em;
+    position: relative;
+    z-index: 9999;
+    display: block;
+    height: 10px;
+}
+
+.barUI {
+    width: 85%;
+}
+.barUx {
+    width: 80%;
+}
+
+.barFigma {
+    width: 75%;
+}
+
+.whitePlaceholder::-webkit-input-placeholder {
+    color: white;
+}
+.whitePlaceholder:-moz-placeholder {
+    color: white;
+} /* firefox 19+ */
+.whitePlaceholder:-ms-input-placeholder {
+    color: white;
+} /* ie */
+.whitePlaceholder:-moz-placeholder {
+    color: white;
+}
+.whitePlaceholder::-moz-placeholder {
+    color: white;
+}
 
 @media only screen and (max-width: 600px) {
     #firstSection {
         height: auto;
         background-image: none;
+    }
+    #aboutMe {
+        height: auto;
     }
     #whatCanIdo {
         height: auto;
@@ -205,7 +262,7 @@ h1 {
     .card-img-top {
         display: none;
     }
-    .topQuarterCircle{
+    .topQuarterCircle {
         border-radius: 100% 0 0 0;
         background: $parisDaisy;
         height: 70%;
@@ -214,11 +271,13 @@ h1 {
         right: 0;
         top: 153%;
     }
-    
 }
 
 @media only screen and (max-height: 600px) {
     #firstSection {
+        height: auto;
+    }
+    #aboutMe {
         height: auto;
     }
 }

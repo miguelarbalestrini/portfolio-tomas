@@ -57,6 +57,11 @@ a:active {
   font-weight: 700;
   color: white; }
 
+.boldSubtitle-34-dark {
+  font-size: clamp(16px, 4vw, 34px);
+  font-weight: 700;
+  color: #000000; }
+
 .lightText1 {
   font-size: clamp(16px, 4vw, 20px);
   font-weight: 300;
@@ -291,10 +296,47 @@ h1 {
   z-index: 1; }
 
 .zoom {
-  transition: transform .2s; }
+  transition: transform 0.2s; }
 
 .zoom:hover {
   transform: scale(1.1); }
+
+.backgroundGraph {
+  background-color: #eeeeee; }
+
+.barGraph {
+  margin-bottom: 1em;
+  position: relative;
+  width: 70%;
+  margin: 3em;
+  height: auto;
+  border-radius: 3px; }
+
+.backgroundBar {
+  border-radius: 2px;
+  background: white;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%; }
+
+.bar {
+  background-color: #ffeb3b;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  padding-left: 0.5em;
+  position: relative;
+  z-index: 9999;
+  display: block;
+  height: 10px; }
+
+.barUI {
+  width: 85%; }
+
+.barUx {
+  width: 80%; }
+
+.barFigma {
+  width: 75%; }
 
 .whitePlaceholder::-webkit-input-placeholder {
   color: white; }
@@ -317,6 +359,8 @@ h1 {
   #firstSection {
     height: auto;
     background-image: none; }
+  #aboutMe {
+    height: auto; }
   #whatCanIdo {
     height: auto; }
   #job {
@@ -336,6 +380,8 @@ h1 {
 
 @media only screen and (max-height: 600px) {
   #firstSection {
+    height: auto; }
+  #aboutMe {
     height: auto; } }
 
 .card-img-top {
