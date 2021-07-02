@@ -31,6 +31,17 @@
     color: white;
 }
 
+.btn.rounded-pill.galleryButton {
+    background-color: $gallery;
+    color: $black;
+    border-color: $black;
+}
+
+.btn.rounded-pill.galleryButton:hover {
+    background-color: $black;
+    color: white;
+}
+
 .btn.rounded-pill.darkButton {
     background-color: $black;
     color: white;

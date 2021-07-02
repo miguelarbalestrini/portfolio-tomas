@@ -132,6 +132,15 @@ a:active {
   background-color: #000000;
   color: white; }
 
+.btn.rounded-pill.galleryButton {
+  background-color: #eeeeee;
+  color: #000000;
+  border-color: #000000; }
+
+.btn.rounded-pill.galleryButton:hover {
+  background-color: #000000;
+  color: white; }
+
 .btn.rounded-pill.darkButton {
   background-color: #000000;
   color: white; }
