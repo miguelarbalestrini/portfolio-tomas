@@ -3,35 +3,44 @@
 .btn.rounded-pill.contact {
     border-color: $gorse;
     background-color: $black;
+    color: $gorse;
 }
 
 .btn.rounded-pill.contact:hover {
     background-color: $gorse;
-}
-
-.link--contact {
-    color: $gorse;
-}
-
-.link--contact:hover {
     color: $black;
 }
 
 .btn.rounded-pill.knowMore {
     background-color: $gorse;
+    color:black;
 }
 
 .btn.rounded-pill.knowMore:hover {
     background-color: $buddhaGold;
 }
 
-.link--knowMore {
+.btn.rounded-pill.whiteButton {
+    background-color: white;
+    color: $black;
+    border-color: $black;
+}
+
+.btn.rounded-pill.whiteButton:hover {
+    background-color: $black;
+    color: white;
+}
+
+.btn.rounded-pill.darkButton {
+    background-color: $black;
+    color: white;
+}
+
+.btn.rounded-pill.darkButton:hover {
+    background-color: white;
     color: $black;
 }
 
-.link--knowMore:hover {
-    color: $black;
-}
 
 .menuContainer {
     display: inline-block;

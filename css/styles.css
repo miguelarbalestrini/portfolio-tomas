@@ -109,27 +109,35 @@ a:active {
 
 .btn.rounded-pill.contact {
   border-color: #ffeb3b;
-  background-color: #000000; }
-
-.btn.rounded-pill.contact:hover {
-  background-color: #ffeb3b; }
-
-.link--contact {
+  background-color: #000000;
   color: #ffeb3b; }
 
-.link--contact:hover {
+.btn.rounded-pill.contact:hover {
+  background-color: #ffeb3b;
   color: #000000; }
 
 .btn.rounded-pill.knowMore {
-  background-color: #ffeb3b; }
+  background-color: #ffeb3b;
+  color: black; }
 
 .btn.rounded-pill.knowMore:hover {
   background-color: #c8b900; }
 
-.link--knowMore {
-  color: #000000; }
+.btn.rounded-pill.whiteButton {
+  background-color: white;
+  color: #000000;
+  border-color: #000000; }
 
-.link--knowMore:hover {
+.btn.rounded-pill.whiteButton:hover {
+  background-color: #000000;
+  color: white; }
+
+.btn.rounded-pill.darkButton {
+  background-color: #000000;
+  color: white; }
+
+.btn.rounded-pill.darkButton:hover {
+  background-color: white;
   color: #000000; }
 
 .menuContainer {
