@@ -82,7 +82,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(30%);
+  /*   filter: brightness(30%); */
     height: 100vh;
 }
 
@@ -259,9 +259,9 @@ h1 {
     #jobs {
         height: auto;
     }
-    .card-img-top {
+ /*    .card-img-top {
         display: none;
-    }
+    } */
     .topQuarterCircle {
         border-radius: 100% 0 0 0;
         background: $parisDaisy;

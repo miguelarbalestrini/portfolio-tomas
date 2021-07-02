@@ -36,6 +36,11 @@
     @include set-font($poppins-bold, $black);
 }
 
+.boldSubtitle-150 {
+    font-size: reSizeFont(150px);
+    @include set-font($poppins-bold);
+}
+
 .lightText1 {
     font-size: reSizeFont(20px);
     @include set-font($poppins-light);

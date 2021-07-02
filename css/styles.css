@@ -62,6 +62,11 @@ a:active {
   font-weight: 700;
   color: #000000; }
 
+.boldSubtitle-150 {
+  font-size: clamp(16px, 4vw, 150px);
+  font-weight: 700;
+  color: white; }
+
 .lightText1 {
   font-size: clamp(16px, 4vw, 20px);
   font-weight: 300;
@@ -217,7 +222,7 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(30%);
+  /*   filter: brightness(30%); */
   height: 100vh; }
 
 #jobExample {
@@ -367,8 +372,9 @@ h1 {
     height: auto; }
   #jobs {
     height: auto; }
-  .card-img-top {
-    display: none; }
+  /*    .card-img-top {
+        display: none;
+    } */
   .topQuarterCircle {
     border-radius: 100% 0 0 0;
     background: #ffff72;
