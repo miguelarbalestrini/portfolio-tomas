@@ -67,6 +67,11 @@ a:active {
   font-weight: 700;
   color: white; }
 
+.boldSubtitle-60-dark {
+  font-size: clamp(16px, 4vw, 60px);
+  font-weight: 700;
+  color: #000000; }
+
 .lightText1 {
   font-size: clamp(16px, 4vw, 20px);
   font-weight: 300;
@@ -79,6 +84,11 @@ a:active {
 
 .regulatText-24 {
   font-size: clamp(16px, 4vw, 24px);
+  font-weight: 400;
+  color: #000000; }
+
+.regulatText-34-dark {
+  font-size: clamp(16px, 4vw, 34px);
   font-weight: 400;
   color: #000000; }
 

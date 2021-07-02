@@ -41,6 +41,11 @@
     @include set-font($poppins-bold);
 }
 
+.boldSubtitle-60-dark {
+    font-size: reSizeFont(60px);
+    @include set-font($poppins-bold, $black);
+}
+
 .lightText1 {
     font-size: reSizeFont(20px);
     @include set-font($poppins-light);
@@ -55,6 +60,12 @@
     font-size: reSizeFont(24px);
     @include set-font($poppins-regular, $black);
 }
+
+.regulatText-34-dark {
+    font-size: reSizeFont(34px);
+    @include set-font($poppins-regular, $black);
+}
+
 .regulatText-24-white {
     font-size: reSizeFont(24px);
     @include set-font($poppins-regular);
