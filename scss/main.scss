@@ -47,11 +47,13 @@ h1 {
 }
 
 #aboutMe {
+    position: relative;
     background-color: white;
     min-height: auto;
 }
 
 #whatCanIdo {
+    position: relative;
     background-color: $gorse;
     height: auto;
 }
@@ -141,7 +143,7 @@ h1 {
     width: 100%;
     position: absolute;
     right: 0;
-    top: 136%;
+    top: 28%;
 }
 
 .bottomQuarterCircle {
@@ -262,15 +264,6 @@ h1 {
  /*    .card-img-top {
         display: none;
     } */
-    .topQuarterCircle {
-        border-radius: 100% 0 0 0;
-        background: $parisDaisy;
-        height: 70%;
-        width: 100%;
-        position: absolute;
-        right: 0;
-        top: 153%;
-    }
 }
 
 @media only screen and (max-height: 600px) {
@@ -285,4 +278,13 @@ h1 {
 .card-img-top {
     max-width: 100%;
     width: 100%;
+}
+
+
+
+@for $i from 1 to 5 {
+
+    .indexFoto#{$i}{
+        background-image: url(../images/img#{$i}.jpeg);
+    }
 }

@@ -220,10 +220,12 @@ h1 {
   /*  overflow: auto; */ }
 
 #aboutMe {
+  position: relative;
   background-color: white;
   min-height: auto; }
 
 #whatCanIdo {
+  position: relative;
   background-color: #ffeb3b;
   height: auto; }
 
@@ -299,7 +301,7 @@ h1 {
   width: 100%;
   position: absolute;
   right: 0;
-  top: 136%; }
+  top: 28%; }
 
 .bottomQuarterCircle {
   border-radius: 0 0 0 100%;
@@ -401,15 +403,7 @@ h1 {
     height: auto; }
   /*    .card-img-top {
         display: none;
-    } */
-  .topQuarterCircle {
-    border-radius: 100% 0 0 0;
-    background: #ffff72;
-    height: 70%;
-    width: 100%;
-    position: absolute;
-    right: 0;
-    top: 153%; } }
+    } */ }
 
 @media only screen and (max-height: 600px) {
   #firstSection {
@@ -420,3 +414,15 @@ h1 {
 .card-img-top {
   max-width: 100%;
   width: 100%; }
+
+.indexFoto1 {
+  background-image: url(../images/img1.jpeg); }
+
+.indexFoto2 {
+  background-image: url(../images/img2.jpeg); }
+
+.indexFoto3 {
+  background-image: url(../images/img3.jpeg); }
+
+.indexFoto4 {
+  background-image: url(../images/img4.jpeg); }
