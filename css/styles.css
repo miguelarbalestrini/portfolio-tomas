@@ -181,6 +181,21 @@ a:active {
   left: 40%;
   text-align: center; }
 
+.formRight {
+  border-left: 1px solid white;
+  height: 72vh; }
+
+textarea.form-control {
+  height: 68%; }
+
+.form-control {
+  background-color: #000000;
+  border: black;
+  padding-left: 0; }
+
+.nameAndMail {
+  border-bottom: ridge 1px white; }
+
 .headerBlack {
   background-color: #000000; }
 
@@ -282,13 +297,6 @@ h1 {
   background-color: #000000;
   height: 90vh; }
 
-.form-control {
-  background-color: #000000;
-  border: black;
-  border-bottom: ridge 1px white;
-  padding-left: 0;
-  /*  color: white; */ }
-
 .copyright {
   position: absolute;
   left: 30%;
@@ -371,6 +379,9 @@ h1 {
 
 .barFigma {
   width: 75%; }
+
+.rightWhitePlaceholder {
+  height: 70vh; }
 
 .whitePlaceholder::-webkit-input-placeholder {
   color: white; }

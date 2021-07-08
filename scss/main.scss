@@ -3,6 +3,7 @@
 @import "./utilities/fonts";
 @import "./components/titles.scss";
 @import "./components/buttons.scss";
+@import "./components/form";
 
 .headerBlack {
     background-color: $black;
@@ -122,14 +123,6 @@ h1 {
     height: 90vh;
 }
 
-.form-control {
-    background-color: $black;
-    border: black;
-    border-bottom: ridge 1px white;
-    padding-left: 0;
-    /*  color: white; */
-}
-
 .copyright {
     position: absolute;
     left: 30%;
@@ -226,6 +219,10 @@ h1 {
 
 .barFigma {
     width: 75%;
+}
+
+.rightWhitePlaceholder {
+    height: 70vh;
 }
 
 .whitePlaceholder::-webkit-input-placeholder {
