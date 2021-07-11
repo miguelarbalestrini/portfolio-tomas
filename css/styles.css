@@ -426,14 +426,5 @@ h1 {
   max-width: 100%;
   width: 100%; }
 
-.indexFoto1 {
-  background-image: url(../images/img1.jpeg); }
-
-.indexFoto2 {
-  background-image: url(../images/img2.jpeg); }
-
-.indexFoto3 {
-  background-image: url(../images/img3.jpeg); }
-
-.indexFoto4 {
-  background-image: url(../images/img4.jpeg); }
+#blackBody {
+  background-color: #000000; }

@@ -277,11 +277,6 @@ h1 {
     width: 100%;
 }
 
-
-
-@for $i from 1 to 5 {
-
-    .indexFoto#{$i}{
-        background-image: url(../images/img#{$i}.jpeg);
-    }
+#blackBody {
+    background-color: $black;
 }
