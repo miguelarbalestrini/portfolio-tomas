@@ -16,7 +16,7 @@
 
 .navbar-brand.bold-40-black {
     font-size: reSizeFont(40px, 40px);
-    @include set-font($poppins-bol);
+    @include set-font($poppins-bold);
     &:hover {
         color: $black;
     }
