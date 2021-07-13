@@ -42,7 +42,7 @@ a:active {
 .navbar-brand.bold-40-black {
   font-size: clamp(40px, 4vw, 40px);
   font-weight: 700;
-  color: white; }
+  color: #000000; }
   .navbar-brand.bold-40-black:hover {
     color: #000000; }
 
