@@ -14,6 +14,14 @@
     }
 }
 
+.navbar-brand.bold-40-black {
+    font-size: reSizeFont(40px, 40px);
+    @include set-font($poppins-bol);
+    &:hover {
+        color: $black;
+    }
+}
+
 .bold-30-white {
     font-size: reSizeFont(30px, 20px);
     @include set-font($poppins-bold, white);
