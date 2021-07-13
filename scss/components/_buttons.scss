@@ -13,7 +13,7 @@
 
 .btn.rounded-pill.knowMore {
     background-color: $gorse;
-    color:black;
+    color: black;
 }
 
 .btn.rounded-pill.knowMore:hover {
@@ -52,7 +52,6 @@
     color: $black;
 }
 
-
 .menuContainer {
     display: inline-block;
     position: relative;
@@ -76,13 +75,19 @@
 }
 
 .gorseHover:hover {
-    color: $gorse
+    color: $gorse;
+}
+
+.whiteHover {
+    &:hover {
+        color: white;
+    }
 }
 
 .menuContainer:hover > .appearingText {
     color: white;
     transform: translateY(-40px);
-    transition: all 0.5s;      
+    transition: all 0.5s;
 }
 
 .appearingText {

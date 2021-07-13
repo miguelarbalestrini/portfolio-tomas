@@ -6,6 +6,19 @@
     @include set-font($poppins-semibold);
 }
 
+.navbar-brand.bold-40-white {
+    font-size: reSizeFont(40px, 40px);
+    @include set-font($poppins-bold, white);
+    &:hover {
+        color: white;
+    }
+}
+
+.bold-30-white {
+    font-size: reSizeFont(30px, 20px);
+    @include set-font($poppins-bold, white);
+}
+
 .semiboldTitle2 {
     font-size: reSizeFont(60px);
     @include set-font($poppins-semibold, $black);

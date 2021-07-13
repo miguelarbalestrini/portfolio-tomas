@@ -32,6 +32,18 @@ a:active {
   font-weight: 600;
   color: white; }
 
+.navbar-brand.bold-40-white {
+  font-size: clamp(40px, 4vw, 40px);
+  font-weight: 700;
+  color: white; }
+  .navbar-brand.bold-40-white:hover {
+    color: white; }
+
+.bold-30-white {
+  font-size: clamp(20px, 4vw, 30px);
+  font-weight: 700;
+  color: white; }
+
 .semiboldTitle2 {
   font-size: clamp(16px, 4vw, 60px);
   font-weight: 600;
@@ -170,6 +182,9 @@ a:active {
 .gorseHover:hover {
   color: #ffeb3b; }
 
+.whiteHover:hover {
+  color: white; }
+
 .menuContainer:hover > .appearingText {
   color: white;
   transform: translateY(-40px);
@@ -230,6 +245,7 @@ h1 {
   background-repeat: no-repeat;
   background-color: #000000;
   color: white;
+  position: static;
   /* height: auto; */
   min-height: 100vh;
   /*  min-height: auto ; */
