@@ -37,12 +37,13 @@ h1 {
 
 #firstSection {
     background-image: url(../media/images/portada-edit.svg);
-    background-position: right;
+    background-position: center right;
     background-size: contain;
     background-repeat: no-repeat;
     background-color: $black;
     color: white;
-    height: 100vh;
+    /* height: auto; */
+    min-height: 100vh;
     /*  min-height: auto ; */
     /*  overflow: auto; */
 }
@@ -50,7 +51,8 @@ h1 {
 #aboutMe {
     position: relative;
     background-color: white;
-    min-height: auto;
+    height: auto;
+  /*   max-height: auto; */
 }
 
 #whatCanIdo {
@@ -243,12 +245,12 @@ h1 {
 
 @media only screen and (max-width: 600px) {
     #firstSection {
-        height: auto;
+     /*    height: auto; */
         background-image: none;
     }
-    #aboutMe {
+/*     #aboutMe {
         height: auto;
-    }
+    } */
     #whatCanIdo {
         height: auto;
     }
@@ -263,14 +265,14 @@ h1 {
     } */
 }
 
-@media only screen and (max-height: 600px) {
+/* @media only screen and (max-height: 600px) {
     #firstSection {
         height: auto;
     }
     #aboutMe {
         height: auto;
     }
-}
+} */
 
 .card-img-top {
     max-width: 100%;
@@ -279,4 +281,8 @@ h1 {
 
 #blackBody {
     background-color: $black;
+}
+
+.testing {
+    height: 75%;
 }

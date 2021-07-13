@@ -225,19 +225,21 @@ h1 {
 
 #firstSection {
   background-image: url(../media/images/portada-edit.svg);
-  background-position: right;
+  background-position: center right;
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #000000;
   color: white;
-  height: 100vh;
+  /* height: auto; */
+  min-height: 100vh;
   /*  min-height: auto ; */
   /*  overflow: auto; */ }
 
 #aboutMe {
   position: relative;
   background-color: white;
-  min-height: auto; }
+  height: auto;
+  /*   max-height: auto; */ }
 
 #whatCanIdo {
   position: relative;
@@ -402,10 +404,11 @@ h1 {
 
 @media only screen and (max-width: 600px) {
   #firstSection {
-    height: auto;
+    /*    height: auto; */
     background-image: none; }
-  #aboutMe {
-    height: auto; }
+  /*     #aboutMe {
+        height: auto;
+    } */
   #whatCanIdo {
     height: auto; }
   #job {
@@ -416,15 +419,20 @@ h1 {
         display: none;
     } */ }
 
-@media only screen and (max-height: 600px) {
-  #firstSection {
-    height: auto; }
-  #aboutMe {
-    height: auto; } }
-
+/* @media only screen and (max-height: 600px) {
+    #firstSection {
+        height: auto;
+    }
+    #aboutMe {
+        height: auto;
+    }
+} */
 .card-img-top {
   max-width: 100%;
   width: 100%; }
 
 #blackBody {
   background-color: #000000; }
+
+.testing {
+  height: 75%; }
