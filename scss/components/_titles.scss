@@ -1,0 +1,102 @@
+@import "../utilities/fonts";
+@import "../utilities/colors";
+
+.semiboldTitle1 {
+    font-size: reSizeFont(96px);
+    @include set-font($poppins-semibold);
+}
+
+.navbar-brand.bold-40-white {
+    font-size: reSizeFont(40px, 40px);
+    @include set-font($poppins-bold, white);
+    &:hover {
+        color: white;
+    }
+}
+
+.navbar-brand.bold-40-black {
+    font-size: reSizeFont(40px, 40px);
+    @include set-font($poppins-bold, $black);
+    &:hover {
+        color: $black;
+    }
+}
+
+.bold-30-white {
+    font-size: reSizeFont(30px, 20px);
+    @include set-font($poppins-bold, white);
+}
+
+.semiboldTitle2 {
+    font-size: reSizeFont(60px);
+    @include set-font($poppins-semibold, $black);
+}
+
+.mediumTitle1 {
+    font-size: reSizeFont(96px);
+    @include set-font($poppins-medium, $black);
+}
+
+.mediumTitle2 {
+    font-size: reSizeFont(96px);
+    @include set-font($poppins-medium);
+}
+
+.regularSubtittle1 {
+    font-size: reSizeFont(34px);
+    @include set-font($poppins-regular, $gorse);
+}
+
+.boldSubtitle-34 {
+    font-size: reSizeFont(34px);
+    @include set-font($poppins-bold);
+}
+
+.boldSubtitle-34-dark {
+    font-size: reSizeFont(34px);
+    @include set-font($poppins-bold, $black);
+}
+
+.boldSubtitle-150 {
+    font-size: reSizeFont(150px);
+    @include set-font($poppins-bold);
+}
+
+.boldSubtitle-60-dark {
+    font-size: reSizeFont(60px);
+    @include set-font($poppins-bold, $black);
+}
+
+.lightText1 {
+    font-size: reSizeFont(20px);
+    @include set-font($poppins-light);
+}
+
+.regularText1 {
+    font-size: reSizeFont(20px);
+    @include set-font($poppins-regular, $black);
+}
+
+.regulatText-24 {
+    font-size: reSizeFont(24px);
+    @include set-font($poppins-regular, $black);
+}
+
+.regulatText-34-dark {
+    font-size: reSizeFont(34px);
+    @include set-font($poppins-regular, $black);
+}
+
+.regulatText-24-white {
+    font-size: reSizeFont(24px);
+    @include set-font($poppins-regular);
+}
+.mediumItem1 {
+    font-size: reSizeFont(20px);
+    @include set-font($poppins-medium);
+}
+
+.mediumItemBlack {
+    font-size: reSizeFont(20px);
+    @include set-font($poppins-medium, $black);
+}

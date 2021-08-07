@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <!--    <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="poner fuente" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+
+<body id="blackBody">
+    <header class="headerblack">
+        <nav class="navbar navbar-expand-md ml-auto navbar-light container">
+            <a class="navbar-brand" style="color: white; font-size: 30px;" href="../index.html">Crehana</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item pr-5">
+                        <a class="nav-link mediumItem1" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item pr-5">
+                        <a class="nav-link mediumItem1" href="./trabajos.html">Trabajos</a>
+                    </li>
+                    <li class="nav-item pr-5 ">
+                        <a class="nav-link mediumItem1" href="./acerca-de.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item pr-0 linkActive">
+                        <a class="nav-link mediumItem1 linkActive" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="contactForm">
+        <div class="container pt-5">
+            <form name="contact" method="POST" action="/success/thanks.html" data-netlify="true">
+                <div class="row">
+                    <div class="col-4 offset-1">
+                        <h1 class="mediumTitle2 pb-3">Contacto</h1>
+                        <h2 class="boldSubtitle-34 pb-3">¿En qué puedo ayudarte?</h2>
+                        <input type="text" class="form-control nameAndMail regulatText-24-white whitePlaceholder mb-3" name="name" placeholder="Nombre">
+                        <input type="text" class="form-control nameAndMail regulatText-24-white whitePlaceholder" id="Email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group offset-1 formRight">
+                        <div class="pl-4">
+                            <label for="textarea1" class="boldSubtitle-34">Mensaje</label>
+                            <div class="mt-3">
+                                <textarea class="form-control regulatText-24-white whitePlaceholder mb-4" id="textarea1" name="message" rows="3" placeholder="Escribe Aquí"></textarea>
+                                <button class="btn rounded-pill contact pl-4 pr-4 mr-1 mediumItem1 mt-2 formButton" type="submit">Enviar Mensaje</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="alert alert-success text-center offset-1 col-6" role="alert">
+                ¡Enviado! ¡Me estaré comunicando a la brevedad!
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

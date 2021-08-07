@@ -1,0 +1,98 @@
+@import "../utilities/colors";
+
+.btn.rounded-pill.contact {
+    border-color: $gorse;
+    background-color: $black;
+    color: $gorse;
+}
+
+.btn.rounded-pill.contact:hover {
+    background-color: $gorse;
+    color: $black;
+}
+
+.btn.rounded-pill.knowMore {
+    background-color: $gorse;
+    color: black;
+}
+
+.btn.rounded-pill.knowMore:hover {
+    background-color: $buddhaGold;
+}
+
+.btn.rounded-pill.whiteButton {
+    background-color: white;
+    color: $black;
+    border-color: $black;
+}
+
+.btn.rounded-pill.whiteButton:hover {
+    background-color: $black;
+    color: white;
+}
+
+.btn.rounded-pill.galleryButton {
+    background-color: $gallery;
+    color: $black;
+    border-color: $black;
+}
+
+.btn.rounded-pill.galleryButton:hover {
+    background-color: $black;
+    color: white;
+}
+
+.btn.rounded-pill.darkButton {
+    background-color: $black;
+    color: white;
+}
+
+.btn.rounded-pill.darkButton:hover {
+    background-color: white;
+    color: $black;
+}
+
+.menuContainer {
+    display: inline-block;
+    position: relative;
+}
+
+.btn.rounded-pill.contact.hideButton {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+
+.hideButton {
+    display: none;
+}
+
+.menuContainer:hover > .hideButton {
+    display: block;
+}
+.menuContainer:hover > img {
+    filter: brightness(70%);
+}
+
+.gorseHover:hover {
+    color: $gorse;
+}
+
+.whiteHover {
+    &:hover {
+        color: white;
+    }
+}
+
+.menuContainer:hover > .appearingText {
+    color: white;
+    transform: translateY(-40px);
+    transition: all 0.5s;
+}
+
+.appearingText {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+}

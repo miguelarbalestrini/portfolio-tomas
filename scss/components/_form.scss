@@ -1,0 +1,18 @@
+.formRight {
+    border-left: 1px solid white;
+    height: 72vh;
+}
+
+textarea.form-control  { 
+   height: 68%;
+}
+
+.form-control {
+    background-color: $black;
+    border: black;
+    padding-left: 0;
+}
+
+.nameAndMail {
+    border-bottom: ridge 1px white;
+}

@@ -1,0 +1,289 @@
+@import "./normalize/reset";
+@import "./utilities/colors";
+@import "./utilities/fonts";
+@import "./components/titles.scss";
+@import "./components/buttons.scss";
+@import "./components/form";
+
+.headerBlack {
+    background-color: $black;
+}
+.headergallery {
+    background-color: $gallery;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link.mynBlackNav {
+    color: $black;
+}
+.navbar-light .navbar-nav .nav-link.mynBlackNav:hover {
+    color: $black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-nav .nav-link.linkActive {
+    color: $gorse;
+}
+
+.navbar-nav .nav-link.linkActive:hover {
+    color: $gorse;
+}
+
+h1 {
+    color: white;
+}
+
+#firstSection {
+    background-image: url(../media/images/portada-edit.svg);
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: $black;
+    color: white;
+    position: static;
+    /* height: auto; */
+    min-height: 100vh;
+    /*  min-height: auto ; */
+    /*  overflow: auto; */
+}
+
+#aboutMe {
+    position: relative;
+    background-color: white;
+    height: auto;
+  /*   max-height: auto; */
+}
+
+#whatCanIdo {
+    position: relative;
+    background-color: $gorse;
+    height: auto;
+}
+
+.services {
+    background-color: $parisDaisy;
+    overflow: hidden;
+}
+
+#job {
+    background-color: $black;
+    max-height: auto;
+}
+
+#networks {
+    background-color: white;
+    height: auto;
+}
+
+#jobs {
+    background-color: $black;
+    color: white;
+    height: 100vh;
+}
+
+#quru {
+    background-image: url("../media/images/Enmascarar\ grupo\ 3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  /*   filter: brightness(30%); */
+    height: 100vh;
+}
+
+#jobExample {
+    background-color: $gallery;
+}
+
+#moreJobExample {
+    background-image: url("../media/images/Frame\ 114\ \(2\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#foo {
+    background-color: $parisDaisy;
+    height: auto;
+}
+
+.semiCircle {
+    background: $gorse;
+    border: 2px solid $gorse;
+    height: 25%;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+}
+
+#webDesigner {
+    background-color: $gallery;
+}
+
+#contactForm {
+    background-color: $black;
+    height: 90vh;
+}
+
+.copyright {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+
+.topQuarterCircle {
+    border-radius: 100% 0 0 0;
+    background: $parisDaisy;
+    height: 72%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 28%;
+}
+
+.bottomQuarterCircle {
+    border-radius: 0 0 0 100%;
+    background: $buddhaGold;
+    height: 72%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.card-body {
+    background-color: $gallery;
+}
+
+/* .form-control:hover {
+    :hover: none;
+} */
+
+.form-control:focus {
+    background-color: $black;
+    border: black;
+    color: white;
+}
+
+.card {
+    overflow: hidden;
+    border: hidden;
+}
+
+.card-body {
+    z-index: 1;
+}
+.zoom {
+    transition: transform 0.2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.backgroundGraph {
+    background-color: $gallery;
+}
+
+.barGraph {
+    margin-bottom: 1em;
+    position: relative;
+    width: 70%;
+    margin: 3em;
+    height: auto;
+    border-radius: 3px;
+}
+
+.backgroundBar {
+    border-radius: 2px;
+    background: white;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+.bar {
+    background-color: #ffeb3b;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    padding-left: 0.5em;
+    position: relative;
+    z-index: 9999;
+    display: block;
+    height: 10px;
+}
+
+.barUI {
+    width: 85%;
+}
+.barUx {
+    width: 80%;
+}
+
+.barFigma {
+    width: 75%;
+}
+
+.rightWhitePlaceholder {
+    height: 70vh;
+}
+
+.whitePlaceholder::-webkit-input-placeholder {
+    color: white;
+}
+.whitePlaceholder:-moz-placeholder {
+    color: white;
+} /* firefox 19+ */
+.whitePlaceholder:-ms-input-placeholder {
+    color: white;
+} /* ie */
+.whitePlaceholder:-moz-placeholder {
+    color: white;
+}
+.whitePlaceholder::-moz-placeholder {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    #firstSection {
+     /*    height: auto; */
+        background-image: none;
+    }
+/*     #aboutMe {
+        height: auto;
+    } */
+    #whatCanIdo {
+        height: auto;
+    }
+    #job {
+        height: auto;
+    }
+    #jobs {
+        height: auto;
+    }
+ /*    .card-img-top {
+        display: none;
+    } */
+}
+
+/* @media only screen and (max-height: 600px) {
+    #firstSection {
+        height: auto;
+    }
+    #aboutMe {
+        height: auto;
+    }
+} */
+
+.card-img-top {
+    max-width: 100%;
+    width: 100%;
+}
+
+#blackBody {
+    background-color: $black;
+}
+
+.testing {
+    height: 75%;
+}

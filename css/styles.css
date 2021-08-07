@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none; }
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+/* html {
+    height: 100vh;
+
+    
+    //Firefox Fix 
+    overflow: auto;
+    scrollbar-width: none;
+} */
+/* html,body{margin:0;padding:0;}
+h1,p{margin:0 0 1em} */
+textarea {
+  resize: none; }
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none; }
+
+.semiboldTitle1 {
+  font-size: clamp(16px, 4vw, 96px);
+  font-weight: 600;
+  color: white; }
+
+.navbar-brand.bold-40-white {
+  font-size: clamp(40px, 4vw, 40px);
+  font-weight: 700;
+  color: white; }
+  .navbar-brand.bold-40-white:hover {
+    color: white; }
+
+.navbar-brand.bold-40-black {
+  font-size: clamp(40px, 4vw, 40px);
+  font-weight: 700;
+  color: #000000; }
+  .navbar-brand.bold-40-black:hover {
+    color: #000000; }
+
+.bold-30-white {
+  font-size: clamp(20px, 4vw, 30px);
+  font-weight: 700;
+  color: white; }
+
+.semiboldTitle2 {
+  font-size: clamp(16px, 4vw, 60px);
+  font-weight: 600;
+  color: #000000; }
+
+.mediumTitle1 {
+  font-size: clamp(16px, 4vw, 96px);
+  font-weight: 500;
+  color: #000000; }
+
+.mediumTitle2 {
+  font-size: clamp(16px, 4vw, 96px);
+  font-weight: 500;
+  color: white; }
+
+.regularSubtittle1 {
+  font-size: clamp(16px, 4vw, 34px);
+  font-weight: 400;
+  color: #ffeb3b; }
+
+.boldSubtitle-34 {
+  font-size: clamp(16px, 4vw, 34px);
+  font-weight: 700;
+  color: white; }
+
+.boldSubtitle-34-dark {
+  font-size: clamp(16px, 4vw, 34px);
+  font-weight: 700;
+  color: #000000; }
+
+.boldSubtitle-150 {
+  font-size: clamp(16px, 4vw, 150px);
+  font-weight: 700;
+  color: white; }
+
+.boldSubtitle-60-dark {
+  font-size: clamp(16px, 4vw, 60px);
+  font-weight: 700;
+  color: #000000; }
+
+.lightText1 {
+  font-size: clamp(16px, 4vw, 20px);
+  font-weight: 300;
+  color: white; }
+
+.regularText1 {
+  font-size: clamp(16px, 4vw, 20px);
+  font-weight: 400;
+  color: #000000; }
+
+.regulatText-24 {
+  font-size: clamp(16px, 4vw, 24px);
+  font-weight: 400;
+  color: #000000; }
+
+.regulatText-34-dark {
+  font-size: clamp(16px, 4vw, 34px);
+  font-weight: 400;
+  color: #000000; }
+
+.regulatText-24-white {
+  font-size: clamp(16px, 4vw, 24px);
+  font-weight: 400;
+  color: white; }
+
+.mediumItem1 {
+  font-size: clamp(16px, 4vw, 20px);
+  font-weight: 500;
+  color: white; }
+
+.mediumItemBlack {
+  font-size: clamp(16px, 4vw, 20px);
+  font-weight: 500;
+  color: #000000; }
+
+.btn.rounded-pill.contact {
+  border-color: #ffeb3b;
+  background-color: #000000;
+  color: #ffeb3b; }
+
+.btn.rounded-pill.contact:hover {
+  background-color: #ffeb3b;
+  color: #000000; }
+
+.btn.rounded-pill.knowMore {
+  background-color: #ffeb3b;
+  color: black; }
+
+.btn.rounded-pill.knowMore:hover {
+  background-color: #c8b900; }
+
+.btn.rounded-pill.whiteButton {
+  background-color: white;
+  color: #000000;
+  border-color: #000000; }
+
+.btn.rounded-pill.whiteButton:hover {
+  background-color: #000000;
+  color: white; }
+
+.btn.rounded-pill.galleryButton {
+  background-color: #eeeeee;
+  color: #000000;
+  border-color: #000000; }
+
+.btn.rounded-pill.galleryButton:hover {
+  background-color: #000000;
+  color: white; }
+
+.btn.rounded-pill.darkButton {
+  background-color: #000000;
+  color: white; }
+
+.btn.rounded-pill.darkButton:hover {
+  background-color: white;
+  color: #000000; }
+
+.menuContainer {
+  display: inline-block;
+  position: relative; }
+
+.btn.rounded-pill.contact.hideButton {
+  position: absolute;
+  top: 60%;
+  left: 40%; }
+
+.hideButton {
+  display: none; }
+
+.menuContainer:hover > .hideButton {
+  display: block; }
+
+.menuContainer:hover > img {
+  filter: brightness(70%); }
+
+.gorseHover:hover {
+  color: #ffeb3b; }
+
+.whiteHover:hover {
+  color: white; }
+
+.menuContainer:hover > .appearingText {
+  color: white;
+  transform: translateY(-40px);
+  transition: all 0.5s; }
+
+.appearingText {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  text-align: center; }
+
+.formRight {
+  border-left: 1px solid white;
+  height: 72vh; }
+
+textarea.form-control {
+  height: 68%; }
+
+.form-control {
+  background-color: #000000;
+  border: black;
+  padding-left: 0; }
+
+.nameAndMail {
+  border-bottom: ridge 1px white; }
+
+.headerBlack {
+  background-color: #000000; }
+
+.headergallery {
+  background-color: #eeeeee; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+.navbar-light .navbar-nav .nav-link.mynBlackNav {
+  color: #000000; }
+
+.navbar-light .navbar-nav .nav-link.mynBlackNav:hover {
+  color: #000000; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white; }
+
+.navbar-nav .nav-link.linkActive {
+  color: #ffeb3b; }
+
+.navbar-nav .nav-link.linkActive:hover {
+  color: #ffeb3b; }
+
+h1 {
+  color: white; }
+
+#firstSection {
+  background-image: url(../media/images/portada-edit.svg);
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  color: white;
+  position: static;
+  /* height: auto; */
+  min-height: 100vh;
+  /*  min-height: auto ; */
+  /*  overflow: auto; */ }
+
+#aboutMe {
+  position: relative;
+  background-color: white;
+  height: auto;
+  /*   max-height: auto; */ }
+
+#whatCanIdo {
+  position: relative;
+  background-color: #ffeb3b;
+  height: auto; }
+
+.services {
+  background-color: #ffff72;
+  overflow: hidden; }
+
+#job {
+  background-color: #000000;
+  max-height: auto; }
+
+#networks {
+  background-color: white;
+  height: auto; }
+
+#jobs {
+  background-color: #000000;
+  color: white;
+  height: 100vh; }
+
+#quru {
+  background-image: url("../media/images/Enmascarar grupo 3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*   filter: brightness(30%); */
+  height: 100vh; }
+
+#jobExample {
+  background-color: #eeeeee; }
+
+#moreJobExample {
+  background-image: url("../media/images/Frame 114 (2).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+
+#foo {
+  background-color: #ffff72;
+  height: auto; }
+
+.semiCircle {
+  background: #ffeb3b;
+  border: 2px solid #ffeb3b;
+  height: 25%;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%; }
+
+#webDesigner {
+  background-color: #eeeeee; }
+
+#contactForm {
+  background-color: #000000;
+  height: 90vh; }
+
+.copyright {
+  position: absolute;
+  left: 30%;
+  top: 20%; }
+
+.topQuarterCircle {
+  border-radius: 100% 0 0 0;
+  background: #ffff72;
+  height: 72%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 28%; }
+
+.bottomQuarterCircle {
+  border-radius: 0 0 0 100%;
+  background: #c8b900;
+  height: 72%;
+  width: 100%;
+  position: absolute;
+  right: 0; }
+
+.card-body {
+  background-color: #eeeeee; }
+
+/* .form-control:hover {
+    :hover: none;
+} */
+.form-control:focus {
+  background-color: #000000;
+  border: black;
+  color: white; }
+
+.card {
+  overflow: hidden;
+  border: hidden; }
+
+.card-body {
+  z-index: 1; }
+
+.zoom {
+  transition: transform 0.2s; }
+
+.zoom:hover {
+  transform: scale(1.1); }
+
+.backgroundGraph {
+  background-color: #eeeeee; }
+
+.barGraph {
+  margin-bottom: 1em;
+  position: relative;
+  width: 70%;
+  margin: 3em;
+  height: auto;
+  border-radius: 3px; }
+
+.backgroundBar {
+  border-radius: 2px;
+  background: white;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%; }
+
+.bar {
+  background-color: #ffeb3b;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  padding-left: 0.5em;
+  position: relative;
+  z-index: 9999;
+  display: block;
+  height: 10px; }
+
+.barUI {
+  width: 85%; }
+
+.barUx {
+  width: 80%; }
+
+.barFigma {
+  width: 75%; }
+
+.rightWhitePlaceholder {
+  height: 70vh; }
+
+.whitePlaceholder::-webkit-input-placeholder {
+  color: white; }
+
+.whitePlaceholder:-moz-placeholder {
+  color: white; }
+
+/* firefox 19+ */
+.whitePlaceholder:-ms-input-placeholder {
+  color: white; }
+
+/* ie */
+.whitePlaceholder:-moz-placeholder {
+  color: white; }
+
+.whitePlaceholder::-moz-placeholder {
+  color: white; }
+
+@media only screen and (max-width: 600px) {
+  #firstSection {
+    /*    height: auto; */
+    background-image: none; }
+  /*     #aboutMe {
+        height: auto;
+    } */
+  #whatCanIdo {
+    height: auto; }
+  #job {
+    height: auto; }
+  #jobs {
+    height: auto; }
+  /*    .card-img-top {
+        display: none;
+    } */ }
+
+/* @media only screen and (max-height: 600px) {
+    #firstSection {
+        height: auto;
+    }
+    #aboutMe {
+        height: auto;
+    }
+} */
+.card-img-top {
+  max-width: 100%;
+  width: 100%; }
+
+#blackBody {
+  background-color: #000000; }
+
+.testing {
+  height: 75%; }
